@@ -22,17 +22,18 @@ namespace ChessRefactor.Helper
                     string content;
                     if (hienTai != null)
                     {
-                       content = hienTai.LayMau() + " " + hienTai.LayTen() + "\n";
+                       content = hienTai.LayMau() + "" + hienTai.LayTen() + "\n";
                       
                     }
                     else
                     {
-                       content=0 + " " + 0;
+                       content=0 + "" + 0 +"\n";
                     }
                     fout.Write(Encoding.ASCII.GetBytes(content), 0, content.Length);
                 }
 
             }
+            fout.Close();
             return true;
         }
         public override bool Load(FileStream fin, BanCo mBanCo)

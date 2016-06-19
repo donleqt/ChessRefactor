@@ -732,7 +732,86 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="a01a39fb-f57b-41ab-94d7-91c7b643e91b"
+            Id="56f18235-db62-4b3d-a3f5-aefef639de35"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5eca5e6e-857a-4a5a-8b9b-97dc518ec4f1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DQuanCo Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b011cac9-a10e-4baf-8fec-f7c422525386"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7d6b083-63fe-470b-b57d-f3cff0cb64e7">
+                    <propertyInstance
+                      Id="9d0972f9-f1b0-4609-9a2a-8e30ead9aa9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd86521-4d9b-436b-aef0-87b1ad3925e1">
+                    <propertyInstance
+                      Id="367d399d-6ba5-48ff-bc6a-2a26f70f6ea3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c640f73-662f-4354-b9b9-56a59d7e4e6b">
+                    <propertyInstance
+                      Id="4c56b3ca-7bac-40ee-905e-c957e5b46582"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b35b317-430e-48c9-b4e4-76625dc6b2c2">
+                    <propertyInstance
+                      Id="9b9658ab-96c0-446d-a540-e54201aa26a2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b64f86f2-6128-4023-9139-2d54164ea53c">
+                    <propertyInstance
+                      Id="10978c9b-bf73-4aac-b933-03a64e1a623b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8280c68e-e368-4472-af56-eef24fb1f08b">
+                    <propertyInstance
+                      Id="db2b35b2-2649-49c0-913a-39758f23483c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fd070251-755e-475f-8a3f-10feb6c19e06"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6555d007-4df8-43ae-85d1-b9d066a9b4be"
             name="QuanCo"
             isLeaf="false"
             isStatic="false"
@@ -741,54 +820,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="1f52615c-e8bc-4225-9f11-1ad3ec01bf29"
+                Id="b386350b-9181-4dd0-ae95-80940bc7f27c"
                 handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DQuanCo Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="4cf80893-b1d9-4ead-9b91-908ad76a43f8"
+                Id="13aa247c-9e18-41f5-a7e6-9bc952833a85"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="404d94d6-ee3e-41c2-a9bf-144cbc5fb6ad">
+                    Id="bb844a2b-468d-4ee4-a0fd-c9087e427d76">
                     <propertyInstance
-                      Id="51cb4bda-fd8e-4019-bdc7-29dc58aeb16b"
+                      Id="c60bc48f-5757-4c2b-be62-b3a5fb652907"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a925c6c6-eafe-432a-a44e-8fbe050a2288">
+                    Id="b0dd2dea-ada0-4da2-98fa-2ab97d9b967d">
                     <propertyInstance
-                      Id="01ebece3-5b3e-497e-96ea-5b0450b1cc74"
+                      Id="a69f994b-5942-4fdf-8d6b-f24f4b3412df"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="22e79f47-f8fb-4135-91fb-25d05f287f4e">
+                    Id="807fe68f-68d9-40dc-85d0-e02b46944664">
                     <propertyInstance
-                      Id="f288e53a-cabe-436a-82dd-4cb1d96b03e4"
+                      Id="e0af23b4-b2f3-41f7-ba13-c1c7f8c075cf"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a22d64a0-4b4f-46f5-b18d-a9f56e44b516">
+                    Id="cd83c1af-c171-420f-9d8c-5e2980c9d291">
                     <propertyInstance
-                      Id="695de569-2a6e-4d98-be80-745d14d96b98"
+                      Id="5a0346fe-0588-49d1-b94c-72836fce6fdb"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a014bc9e-772f-4898-a4a1-531e54f54076">
+                    Id="a886e8f0-2f84-4f85-965c-646d90e62f2c">
                     <propertyInstance
-                      Id="b3052e0d-549f-4a01-8373-345be3c54271"
+                      Id="d480ae47-1571-42d9-83e4-c257edb1910f"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d50a6a2f-0cff-49e0-b67c-808ae6038f5a">
+                    Id="e400be3e-c340-411f-b212-54029157ba84">
                     <propertyInstance
-                      Id="58339d62-6963-454d-b20f-00b0ad3e1600"
+                      Id="22d558a0-e638-43a3-b767-8cdbe7b0b813"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -1149,7 +1228,7 @@
             </appliedStereotypesInternal>
           </operation>
           <operation
-            Id="232e4695-91cc-4482-92f9-59b814259dfc"
+            Id="bca4c439-0684-430d-8a6b-ca768cd8556d"
             name="BanCo"
             visibility="Private"
             isLeaf="false"
@@ -1159,54 +1238,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="60a7da48-fcc8-4f03-91ed-2818ec02245a"
+                Id="1ee93ee0-41af-4cf9-81c5-056162a9e901"
                 handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DBanCo Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="c8d7987d-a7c4-482a-a717-a4f1b7288262"
+                Id="27e7c77e-093b-43ee-8bb6-fa508a8c1cfc"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b1881e2d-5539-4ef4-a710-d98362a8ad86">
+                    Id="f2abeafb-7967-4ae8-8346-7e95f8a4b6e8">
                     <propertyInstance
-                      Id="e973d491-ec73-4e5b-ac9e-be1966e339fd"
+                      Id="764422b7-3166-46c2-a2b6-043c30a17fc0"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d5467f91-3b3d-4c71-b0de-c2e648491467">
+                    Id="50f74ada-f6f8-4fbc-a04d-cefe46244dcf">
                     <propertyInstance
-                      Id="abfd24ae-c5b8-421c-817a-e0ae54f1a0b1"
+                      Id="bcf0098b-d715-4360-8478-5a1bd083777b"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="7f91eaa9-14ee-4ebc-a5ac-b7e4961ebbe6">
+                    Id="2d5e02b0-3e31-4cd9-8014-cb87be1ac16c">
                     <propertyInstance
-                      Id="c12b7a6a-6cfb-4f7a-986b-1d6cd40ccf4f"
+                      Id="1ffc1cea-0fb8-489c-8022-85e18aaa7564"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3d6642aa-dc0e-40d8-bb46-e261b2852c88">
+                    Id="4e1eceb6-88f9-4ba8-a578-f8a830a7a5ad">
                     <propertyInstance
-                      Id="a8a45d95-d062-42a3-b834-bf4299ebdfc5"
+                      Id="6efcd764-d01d-48ec-b6af-00e8174bc3b6"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="62b418e6-9a28-417b-b4fa-d663569726f1">
+                    Id="a094ff01-788f-426e-8494-13b0d269a577">
                     <propertyInstance
-                      Id="b7c893c9-f15f-4596-bb5c-3d82ccd08118"
+                      Id="6d8cb759-72f5-4eaa-9df6-64ed51767ca2"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4b97c6d9-9ec8-4f35-8b72-6ca0c59c0034">
+                    Id="387cde38-9a4e-4864-8d3e-7bc40ea5cd35">
                     <propertyInstance
-                      Id="975451f1-52dc-4d0d-873c-9dd3d8b0d702"
+                      Id="8127dc8b-8a37-4285-aaf6-561045e93000"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -1625,6 +1704,85 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="9226ed90-f296-4507-b2e7-723098b56df3"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="878f9a5b-ad07-4deb-9f88-80b443b19d24"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DTot Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ed09496d-e0ea-4627-9a73-a01af2982cb6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1a7bcc6-c509-4e2c-8615-9cf98013c2fe">
+                    <propertyInstance
+                      Id="da9edb3d-b7c7-4d4e-b3b4-6f6d769aa757"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c2b0374-2a36-497b-9be8-47970184a19b">
+                    <propertyInstance
+                      Id="82f5cb88-7297-48fa-9297-0a77462a2772"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab01caf7-0333-473f-99a6-11f2690129c5">
+                    <propertyInstance
+                      Id="88051b65-89dc-4059-ac49-502aeb2d5d96"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e767e87c-4412-4e37-898a-ba3d9af13962">
+                    <propertyInstance
+                      Id="3fe82761-5ab8-4436-ad28-9b631f63f481"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c6df9d4-972b-449a-b2ec-a769b262ef3e">
+                    <propertyInstance
+                      Id="517e83e1-82e8-47fb-8362-ce8bf0220f73"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12043681-9eab-4efc-8914-0694164336d1">
+                    <propertyInstance
+                      Id="c978302b-82ae-4e24-b1d9-b09861074ad3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ac6c171a-56bf-4bed-a88e-af9229c2b451"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -2031,6 +2189,85 @@
                       Id="5c9b4366-e101-4f8e-8215-79cb33ed6c12"
                       LastKnownName="Char"
                       LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="07b7a7b5-9756-4dca-9eaa-dae3545a4454"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8ff3a5c1-6090-44a9-83da-e6f6054a66d8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DTuong Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b72204f8-6ba7-4b7e-adaa-3a3697275a98"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b408d969-41bf-4ec6-97f8-fd96c7e5299f">
+                    <propertyInstance
+                      Id="ff53670e-5518-4e13-80a8-a40fb48f448a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bf2868e-ca56-494b-ab76-7b397ebb26b2">
+                    <propertyInstance
+                      Id="13917851-cbb6-4742-b29e-74b88672d6aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eefa1cb-5d9b-4537-a9e5-d1ab2aaccb79">
+                    <propertyInstance
+                      Id="20957756-2491-44e9-9cad-0e202f8082e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f09ac1f-3364-48ac-a9ce-eb7bbc92f34f">
+                    <propertyInstance
+                      Id="bdefaf05-d9c3-46cf-953a-a0ccf1312c94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbb6037c-b9e8-45b2-a2df-be2fec45443a">
+                    <propertyInstance
+                      Id="7377ae31-fd2b-44dd-90d3-83734f3fcae9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="029f6ee5-aa42-4f4b-8c18-fc68212dc7c0">
+                    <propertyInstance
+                      Id="e0ce22ed-8eb9-4be0-8686-2f9ae1fa649d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81e26735-f947-48f9-8e42-79123560b151"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -2447,6 +2684,85 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="a59282d8-84a1-45d6-b1c4-2bb9e4946341"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="da5b2540-ce4d-4f55-99f4-34d567a4eaaa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DVua Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bddfccdb-2e39-496f-b296-ddcf9b82398f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd5ff55d-4779-4c34-8968-8cfaeb25731e">
+                    <propertyInstance
+                      Id="eb14553d-b09c-45b9-b55b-8104635cbce6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eecedc0c-200d-40a8-875e-5badf0d7dfbe">
+                    <propertyInstance
+                      Id="04c03c34-af2d-42e2-8ee8-f38cc076ce07"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e11f150-2184-4db4-8082-d84be0cb8d31">
+                    <propertyInstance
+                      Id="8e33504c-b9a7-4829-a307-4341fbee8f45"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="984ec6e5-9757-476e-a87d-46a3808a44fb">
+                    <propertyInstance
+                      Id="d5905e65-0fd7-4bf8-8527-c5a20f2e94a0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="123a62ea-5d1f-45ea-be71-649873048d56">
+                    <propertyInstance
+                      Id="a9a783cc-33f9-4d01-9a2e-60ddea200756"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="410f0afc-7364-4942-b440-c984d149440e">
+                    <propertyInstance
+                      Id="421f8db1-455e-454e-a6bd-d769a941c4e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1401c224-fab1-43f1-865a-4b1318c049dd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -2853,6 +3169,85 @@
                       Id="5c9b4366-e101-4f8e-8215-79cb33ed6c12"
                       LastKnownName="Char"
                       LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="097dac17-b20a-460c-b166-f700f4ef896f"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a8917c5b-9320-4c8d-87fa-d7430d574c2e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DXe Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a55d2f73-fd7d-4196-9bc6-13e99f6986bf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a161209b-534e-4b5c-a8d3-60d2ea6a5ae2">
+                    <propertyInstance
+                      Id="b58208d6-f71f-4859-871b-b204823e2a30"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3aac8e3-d2f5-400f-acf5-f185271f008f">
+                    <propertyInstance
+                      Id="9cc4e3ea-cba3-436e-b692-50e74a70168a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9f855b8-a638-4e36-be0d-8b64b501ffec">
+                    <propertyInstance
+                      Id="de37f5b7-da59-4dbf-98f5-eb56b22f9732"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d64aad6-eaf9-42e2-9d87-9a75aa129160">
+                    <propertyInstance
+                      Id="13033a88-84ce-4219-9093-81d126a6a603"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b70565e-e92f-4a52-baa7-d98cec3fe66c">
+                    <propertyInstance
+                      Id="8faa26a4-7314-4afa-b616-b92590071a46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adc94a6a-4ddb-4cc5-a07a-10d3e2524fa6">
+                    <propertyInstance
+                      Id="a300b012-4e2c-433a-b662-9333dee84dbd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5404c16c-bca1-401b-8221-744b1a57e007"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -3269,6 +3664,85 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="15b77287-d0be-4e33-9997-30556c1594fa"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c2c65944-6b75-4045-b0dc-c7c98f9fb87c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DHau Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0a1c12d8-5f2d-4217-958f-0ba19a99a6f1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="619ae075-f94d-4d04-ab22-edf699ddda1b">
+                    <propertyInstance
+                      Id="f7f3e112-1599-4211-a9f4-58c2fd84c219"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="010f9b3d-0fda-4aee-9f81-7cd35b5fb702">
+                    <propertyInstance
+                      Id="50356809-acd2-48c7-b5f0-822071eab522"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64b6484e-05e7-4533-aded-de103f578981">
+                    <propertyInstance
+                      Id="be7f8b6e-01a5-48b1-99be-7eb00f6d2373"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07913e5d-6f27-4976-a77b-92e68a9a25c1">
+                    <propertyInstance
+                      Id="95901a62-fb68-4848-8b04-41f080787728"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d352628-0db0-4ab4-9e9b-d98c32435be7">
+                    <propertyInstance
+                      Id="e93942cd-9a46-445f-ba0e-33bb97dfe655"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a18ae20-a9f8-43f9-96de-ca25c907cc3f">
+                    <propertyInstance
+                      Id="93f12ee1-3c8a-46cc-a32d-3d65459722df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53b1ef8b-8a9a-4b46-ae58-cdb458e0c7d2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -3675,6 +4149,85 @@
                       Id="5c9b4366-e101-4f8e-8215-79cb33ed6c12"
                       LastKnownName="Char"
                       LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6e05d6c0-00c6-4b08-b33b-e2ed3e6a5635"
+            name="clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9c3f2129-a775-4e59-87ae-59ab43e50513"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DMa Member%3Dclone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cec51e0b-eeb4-431e-b127-223573071d4c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="521a89ed-421b-4e52-927a-4f6443c1fad2">
+                    <propertyInstance
+                      Id="a51163cd-66e8-4968-b1b5-370faeea6d0a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73ab267f-bea3-47b4-867b-454d27621561">
+                    <propertyInstance
+                      Id="d9a0b3ea-e968-4192-91d6-3a7a6042ac61"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f21c29d-a676-47ac-aea0-f135f9ead21e">
+                    <propertyInstance
+                      Id="3fc96e6c-7eef-42b6-93ae-7a77982a40e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d90a91a-8597-48a8-bb9e-34d9c71f5c3a">
+                    <propertyInstance
+                      Id="226105c6-7f97-49ed-b2d4-e3ebd3d6ad67"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e70a64f-135e-4d72-a26e-1c2df9ef1996">
+                    <propertyInstance
+                      Id="fb1c8928-956d-49e6-9979-cf05f3769a65"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33c25429-0d68-4b6a-bcc0-0871dc136598">
+                    <propertyInstance
+                      Id="fca56d71-a3dd-457c-bd56-fb4a7d4a8bfa"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2fdbf997-95b0-4dbc-927e-6451ea4cba9b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="78fc3ac1-4ca5-4ae8-bf90-578e70562258"
+                      LastKnownName="QuanCo"
+                      LastKnownLocation="Package3_1705.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>

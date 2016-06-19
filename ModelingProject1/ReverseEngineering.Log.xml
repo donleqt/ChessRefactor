@@ -6,156 +6,112 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2016-06-19T17:08:46" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::boardView' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::changeTurn' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::ChessController' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::chieuTuong' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::chieuTuong::cur' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::chieuTuong::luot' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::chieuTuong::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::chieuTuong::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::isChieuTuong' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::load' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::luot' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::mBanCo' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::menu' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::Move' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::phong' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::phong::cur' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::phong::x' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::Print' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::save' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::vuaDauRoi' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Controller::ChessController::vuaDauRoi::luot' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Helper' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Helper::QuanCoFactory' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Helper::QuanCoFactory::taoQuanCo' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Helper::QuanCoFactory::taoQuanCo::loai' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Helper::QuanCoFactory::taoQuanCo::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::banCo' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::BanCo' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::getBanCo' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::Obj' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::xepQuanCo' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::Hau' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::Hau::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::Ma' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::Ma::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::LayMau' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::mauCo' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::QuanCo' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::QuanCo::color' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::Tot' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::Tot::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::Tuong' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::Tuong::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::Vua' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::Vua::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::mBanCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::LayTen' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::Xe' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::Xe::mau' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Program' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Program::Main' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Program::Main::args' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Program::Program' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView' -  (Class)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::ConsoleView' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::ConsoleView::banCo' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput::luot' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput::x0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput::x1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput::y0' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::getMoveInput::y1' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::luaChonPhong' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::mBanCo' -  (Property)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::menuSelection' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::printMessage' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::printMessage::p' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::renderBoard' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::renderChieuTuong' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::renderGameOver' -  (Operation)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::View::ConsoleView::renderGameOver::luot' -  (Parameter)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Char' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Hau to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Ma to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Tot to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Tuong to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Vua to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Xe to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="High" Text="(12) type(s) fully reverse engineered." />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2016-06-19T17:08:50" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2016-06-20T02:51:19" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor' -  (Package)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model' -  (Package)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::banCo' -  (Property)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::BanCo' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::getBanCo' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::Obj' -  (Property)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::BanCo::xepQuanCo' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::Hau' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::Hau::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Hau::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::Ma' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Ma::Ma::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::LayMau' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::mauCo' -  (Property)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::MoveHopLe::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::QuanCo' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::QuanCo::QuanCo::color' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::Tot' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tot::Tot::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::Tuong' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Tuong::Tuong::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::Vua' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Vua::Vua::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe' -  (Class)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::clone' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::mBanCo' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::x0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::x1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::y0' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::KiemTraVT::y1' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::LayTen' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::Xe' -  (Operation)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChessRefactor::Model::Xe::Xe::mau' -  (Parameter)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Char' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Tot to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Tuong to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Vua to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Xe to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Hau to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ChessRefactor::Model::Ma to ModelingProject1::ChessRefactor::Model::QuanCo (Generalization)" />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="High" Text="(8) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-06-20T02:51:21" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

@@ -9,6 +9,7 @@ namespace ChessRefactor.View
 {
     class ConsoleView
     {
+        // Trường bàn cờ
         BanCo mBanCo;
 
         public ConsoleView(BanCo banCo)
@@ -20,8 +21,9 @@ namespace ChessRefactor.View
             Console.Write("==============GAME OVER==============\n");
             Console.Write( "\n- " + luot + " THUA....!\n\n");
           
-        }
+        } // Hiển thị thông tin GameOver
 
+        // Hiển thị nhập liệu di chuyển
         internal void getMoveInput(ref int x0, ref int y0, ref int x1,ref int y1,char luot)
         {
             string s;
@@ -42,16 +44,19 @@ namespace ChessRefactor.View
             y1 = s[1] - 65;
         }
 
+        // Hiển thị message
         internal void printMessage(string p)
         {
             Console.Write(p);
         }
 
+        // Hiển thị UI lựa chọn kiểu phong tốt
         internal int luaChonPhong()
         {
             throw new NotImplementedException();
         }
 
+        // In ra bàn cờ
         internal void renderBoard()
         {
             for (int i = 0; i < 8; i++)
@@ -148,6 +153,7 @@ namespace ChessRefactor.View
             Console.WriteLine();
         }
 
+        // In menu game
         internal int menuSelection()
         {
             int ch = 1;
@@ -162,12 +168,13 @@ namespace ChessRefactor.View
             return ch;
         }
 
+        // In màn hình lựa chọn lưu trữ
         internal int luaChonLuuTru()
         {
             int ch = 1;
             Console.Write("____________________WELCOME TO CHESS GAME____________________\n");
-            Console.Write("1. LUU KIEU CSV (Mac dinh)\n");
-            Console.Write("2. LUU KIEU DAC TA \n");
+            Console.Write("1. LUU KIEU CSV \n");
+            Console.Write("2. LUU KIEU DAC TA(Mac dinh) \n");
             Console.Write("Nhap lua chon: _\n");
             ch = Console.ReadLine()[0] - 48; ;
 

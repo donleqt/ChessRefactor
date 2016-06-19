@@ -21,7 +21,13 @@ namespace ChessRefactor.Helper
             else
               loadSaveEngine = new ReadableMemory();
         }
-
+        public void thayDoiPhuongThucLuuTru(int ch)
+        {
+            if (ch == 1)
+                loadSaveEngine = new CsvMemory();
+            else
+                return;
+        }
         public bool SaveGame(BanCo mBanco)
         {
             // Mở file
@@ -42,12 +48,6 @@ namespace ChessRefactor.Helper
             { return false; }
         }
 
-        public void thayDoiPhuongThucLuuTru(int ch)
-        {
-            if (ch == 1)
-                loadSaveEngine = new CsvMemory();
-            else
-                return;
-        }
+      
     }
 }
