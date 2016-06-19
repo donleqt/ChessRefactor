@@ -42,11 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ChessController.cs" />
-    <Compile Include="Helper\CsvMemory.cs" />
-    <Compile Include="Helper\MemoryStrategy.cs" />
+    <Compile Include="Helper\SavingLoading\CsvMemory.cs" />
+    <Compile Include="Helper\SavingLoading\MemoryStrategy.cs" />
     <Compile Include="Helper\QuanCoFactory.cs" />
-    <Compile Include="Helper\ReadableMemory.cs" />
-    <Compile Include="Helper\SaveLoad.cs" />
+    <Compile Include="Helper\SavingLoading\ReadableMemory.cs" />
+    <Compile Include="Helper\SavingLoading\SaveLoad.cs" />
     <Compile Include="Model\BanCo.cs" />
     <Compile Include="Model\Hau.cs" />
     <Compile Include="Model\Ma.cs" />

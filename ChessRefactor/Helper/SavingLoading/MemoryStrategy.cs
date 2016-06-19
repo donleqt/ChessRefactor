@@ -12,6 +12,6 @@ namespace ChessRefactor.Helper
     {
        
         public abstract bool Save(BanCo mBanCo,FileStream fout);
-        public abstract bool Load(FileStream fin);
+        public abstract bool Load(FileStream fin,BanCo mBanCo);
     }
 }

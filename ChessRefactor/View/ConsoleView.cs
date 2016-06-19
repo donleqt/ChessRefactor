@@ -153,9 +153,22 @@ namespace ChessRefactor.View
             int ch = 1;
             Console.Write( "____________________WELCOME TO CHESS GAME____________________\n");
             Console.Write( "1. CHOI MOI TU DAU (NEW GAME)\n");
-            Console.Write(  "2. CHOI TIEP (LOAD GAME)\n");
-            Console.Write( "3. THOAT (EXIT)\n");
+            Console.Write("2. CHOI TIEP (LOAD GAME)\n");
+            Console.Write("3. CAI DAT LUU TRU\n");
+            Console.Write( "4. THOAT (EXIT)\n");
             Console.Write(  "Nhap lua chon: _\n");
+            ch = Console.ReadLine()[0] - 48; ;
+
+            return ch;
+        }
+
+        internal int luaChonLuuTru()
+        {
+            int ch = 1;
+            Console.Write("____________________WELCOME TO CHESS GAME____________________\n");
+            Console.Write("1. LUU KIEU CSV (Mac dinh)\n");
+            Console.Write("2. LUU KIEU DAC TA \n");
+            Console.Write("Nhap lua chon: _\n");
             ch = Console.ReadLine()[0] - 48; ;
 
             return ch;

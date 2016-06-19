@@ -33,8 +33,34 @@ namespace ChessRefactor.Helper
                 }
 
             }
-            fout.Close();
             return true;
+        }
+        public override bool Load(FileStream fin, BanCo mBanCo)
+        {
+            var file = new StreamReader(fin);
+            try
+            {
+                for (int i = 0; i < 8; i++)
+                    for (int j = 0; j < 8; j++)
+                    {
+                        string content = file.ReadLine();
+                        var coId = content;
+                        mBanCo.banCo[i, j] = QuanCoFactory.taoQuanCo(coId[1].ToString(), coId[0].ToString());
+                    }
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                file.Close();
+                fin.Close();
+            }
+
+
+
         }
     }
 }

@@ -12,6 +12,7 @@ namespace ChessRefactor.Controller
     class ChessController
     {
         BanCo mBanCo;
+        SaveLoad saveLoad;
         char luot;
         bool isChieuTuong;
 
@@ -26,6 +27,7 @@ namespace ChessRefactor.Controller
             isChieuTuong = false;
             mBanCo = BanCo.getBanCo();
             boardView = new ConsoleView(mBanCo);
+            saveLoad = new SaveLoad("save.txt");
         }
         public void Move()
         {
@@ -84,8 +86,20 @@ namespace ChessRefactor.Controller
         {
             luot = luot == 'W' ? 'B' : 'W';
         } // Thay đổi lượt đi
-        public void save() { } //Lưu ván cờ
-        public void load() { } // Tiếp tục ván đã lưu
+        public void save() {
+            saveLoad.SaveGame(mBanCo);
+        } //Lưu ván cờ
+        public void load() {
+            if (saveLoad.LoadGame(mBanCo))
+            {
+
+            }
+            else
+            {
+                boardView.printMessage("Co loi xay ra, khong load duoc game da luu...");
+                Environment.Exit(1);
+            }
+        } // Tiếp tục ván đã lưu
         public void play()
         {
             int ch = 1;
@@ -101,7 +115,7 @@ namespace ChessRefactor.Controller
                         save();
 
                     }
-                    break;
+                  
                 case 2:
                     load();
                     while (true)
@@ -112,7 +126,11 @@ namespace ChessRefactor.Controller
                         save();
 
                     }
+                case 3:
+                    chonPhuongThucLuuTru();
+                    play();
                     break;
+                   
                 default:
                     break;
             }
@@ -187,6 +205,11 @@ namespace ChessRefactor.Controller
             }
         }
 
+        private void chonPhuongThucLuuTru()
+        {
+            int ch = boardView.luaChonLuuTru();
+            saveLoad.thayDoiPhuongThucLuuTru(ch);
+        }
 
     }        
 }
