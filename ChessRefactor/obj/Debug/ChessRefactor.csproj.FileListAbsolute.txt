@@ -1,0 +1,6 @@
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\bin\Debug\ChessRefactor.exe.config
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\obj\Debug\ChessRefactor.csprojResolveAssemblyReference.cache
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\bin\Debug\ChessRefactor.exe
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\bin\Debug\ChessRefactor.pdb
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\obj\Debug\ChessRefactor.exe
+D:\Work\An toan du lieu\DoAn4\ChessRefactor\ChessRefactor\obj\Debug\ChessRefactor.pdb

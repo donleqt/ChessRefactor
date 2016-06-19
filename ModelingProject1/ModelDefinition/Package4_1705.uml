@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4a773ac9-7a13-4fe5-827c-acf170712eab"
+  name="View"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="6edc2362-1abe-405e-aedf-8c06807039c9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DChessRefactor.View"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a7087896-300e-4725-b9da-0acd7d10ac49"
+        name="ConsoleView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="da6b3cb8-69ab-4658-a872-04ac30debabc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eb69919d-8d3c-41c3-9514-69a623e5d1c6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18ba101a-902b-4ed8-86f9-b06af7bad240">
+                <propertyInstance
+                  Id="32e80f32-483a-4335-9e5d-fcc34aa8fa74"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40964ed0-a28b-4c8a-acee-44fe74d1fd46">
+                <propertyInstance
+                  Id="58af60fc-3394-4bac-87aa-5a009ef3bc65"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a8f111a-edb1-475f-b374-e5f39ce15f45">
+                <propertyInstance
+                  Id="0b7e53c0-e56f-46ff-8448-bde973c88b01"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ef591df-351a-41a2-b271-e51bbcf809d0">
+                <propertyInstance
+                  Id="47ec1b1c-f34b-40dc-a59d-10759382dc56"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84f5cdcf-c2fd-4b8b-8c31-4c350763cd32">
+                <propertyInstance
+                  Id="b748766a-465f-43c9-8d54-d76613814a2f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b473e157-8e85-4823-8443-c0c7640d8a99"
+            name="mBanCo"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cda0577b-d2af-4e27-befe-e6a8e49414a5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3DmBanCo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81530ee3-39bc-45dc-8a89-1d429d7a1c3b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe1e2166-842c-41ba-81ea-b8a5a97cf99c">
+                    <propertyInstance
+                      Id="1f886813-8f43-44b3-9670-b18c2c464aad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07564e53-9e46-4e4c-ad31-29a8927496e0">
+                    <propertyInstance
+                      Id="faf5c97c-4816-4802-bb2b-78fc6b679f71"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e9e011c-b816-43b8-8740-319e242d834d">
+                    <propertyInstance
+                      Id="f5522587-57a0-43c7-b821-e0bb976d91f2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00c5001b-5651-4f46-9420-117edd72f1d9">
+                    <propertyInstance
+                      Id="44975ae5-1c57-40d0-aa95-3acb035377b5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8af506e9-fdd5-462d-b66b-10adfe0d88a7">
+                    <propertyInstance
+                      Id="84a2d3d7-b530-4c8e-ab39-09ef6b232667"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3561a467-d0b5-4775-ab08-ad385a2a4e01"
+                LastKnownName="BanCo"
+                LastKnownLocation="Package3_1705.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7655c9a8-fa95-44ad-90a1-4c3f46e82fcb"
+            name="ConsoleView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fdd2b9de-9550-4af0-a226-20a0849784e8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DBanCo)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fef0aa1c-5277-479f-9ad0-0faf1c58b1e6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90abef09-3cf0-4143-86d7-4d2841cbe433">
+                    <propertyInstance
+                      Id="ecae5d42-d14e-4116-bf5b-e2994bfa75b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a632f13c-bec6-4664-9890-341f1ec4fdd4">
+                    <propertyInstance
+                      Id="fbfa3422-8982-4274-b422-b4a1f867841c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5d53ec5-5301-42a1-99a1-59ac6a7baf91">
+                    <propertyInstance
+                      Id="5c3f4bc7-1360-4640-8b04-420d56cd86e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7261f590-491d-4433-a543-abb250e6275b">
+                    <propertyInstance
+                      Id="787802e7-e8c5-4afb-b35a-cb047703b562"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88b79981-aacc-4919-8332-cdfe81ed8ded">
+                    <propertyInstance
+                      Id="dc932fd4-a515-479e-b58b-73f85b5821f4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7e0dc29-4c4f-4d1e-8a46-9efec48144f0">
+                    <propertyInstance
+                      Id="db028a63-26cf-4197-b6ba-949ccb938f13"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ef8d5169-c385-4c8c-a293-876ac533c951"
+                  name="banCo"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2ad08407-ef75-4396-aaab-fbc21e4260f1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.Model Type%3DBanCo)]) ParameterIdentifier%3DbanCo"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3561a467-d0b5-4775-ab08-ad385a2a4e01"
+                      LastKnownName="BanCo"
+                      LastKnownLocation="Package3_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d1303e2c-6c69-43c0-9c1c-da884afbe9bc"
+            name="menuSelection"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2e0ab118-7137-44ca-9f4b-df6501168c5c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3DmenuSelection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="40839b25-fadc-4acf-898d-d78dd4634fb5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bfffb79-ef5e-418a-894a-e4c0113e2891">
+                    <propertyInstance
+                      Id="dd35797a-8290-439e-89e4-9620c532c793"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f40693c2-7927-41b8-85c1-a07682198170">
+                    <propertyInstance
+                      Id="501b30d9-56d0-4a55-bf45-a8cba7da395f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e790b88-2dc6-4b8c-80bf-7684aed9f00b">
+                    <propertyInstance
+                      Id="5c03118d-42ff-4126-a145-979d9d365cbe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b3ff5cf-0f40-46ae-9e5d-3999bd0a89d3">
+                    <propertyInstance
+                      Id="de595bd6-72b6-4b2f-967e-207a65193b84"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f3c7785-cdb8-4c5c-890f-78bea400e68b">
+                    <propertyInstance
+                      Id="47f56200-6662-494b-8cc3-47c693f3c51e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af0cf595-c404-4be2-8b55-be898a7beeed">
+                    <propertyInstance
+                      Id="cec7b140-9bc6-47e1-9c91-95f2ab75750b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8de9e07f-c9f4-49dc-822c-adeb96292e6d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="299b7aea-7d2b-4de6-a93e-fbe2d43a3aa5"
+            name="renderGameOver"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9391c7ac-c457-48d6-be24-f29a2f60f781"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DrenderGameOver OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8d18be8a-dc41-4f4b-9494-de39d97cc02a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10a3bcc6-e06f-4641-935f-626808fc1346">
+                    <propertyInstance
+                      Id="fb50f1e4-72f6-4665-8b98-e9da8b58db23"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="744a7144-f4ee-40a0-87b9-a074ebb7e6c3">
+                    <propertyInstance
+                      Id="c10222fb-00a6-4833-8063-bdc09e0ffeba"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08e677aa-c832-4655-9bd3-37aeeb717226">
+                    <propertyInstance
+                      Id="ce38b123-6f01-497d-934a-2e0b3c56d351"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="841d055f-06b3-4344-8666-283cf02b70f1">
+                    <propertyInstance
+                      Id="33b3d048-7be0-45ed-bd52-e0e59af925a8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e962e644-2f9c-47d1-b4c1-03893a540eb6">
+                    <propertyInstance
+                      Id="c7bbeef5-1436-4b31-b7c8-ffdb8f01a443"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0b47cf2-0afe-47b4-8cda-f5561790c127">
+                    <propertyInstance
+                      Id="99b8843f-0900-4d73-ab4d-eef8fcf1a290"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9188c4d1-55cb-4dca-9d8f-1fcb60d15047"
+                  name="luot"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="16b83094-42e7-47d9-ba06-cb2086ada735"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DrenderGameOver OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dluot"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5c9b4366-e101-4f8e-8215-79cb33ed6c12"
+                      LastKnownName="Char"
+                      LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="32900b6d-7f6d-46e8-aa07-9fafd69357e1"
+            name="renderChieuTuong"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="446bbdb0-89ba-484c-8f23-98194131fb7d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3DrenderChieuTuong"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="643c08bd-918e-4b80-8d87-682783d5dce0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="281561ef-a821-4c0a-a6aa-9c4914f9e2a2">
+                    <propertyInstance
+                      Id="ca115c62-0872-4196-baf1-4f6b6c67f59f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db9ffa37-0a8a-47a8-8bef-93ff0abe415d">
+                    <propertyInstance
+                      Id="19f8cdad-8266-4d84-b451-1576b698b8d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbd810b5-dbf5-4a47-88a3-7bdfea8fcac7">
+                    <propertyInstance
+                      Id="37b1ab6d-4d1f-4372-8750-211fba60350f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f320457-e8bc-4739-b8ff-0d4cd810dd1b">
+                    <propertyInstance
+                      Id="fb8d118d-bd10-4783-bdd1-e7103b7a98a2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84af598e-dabe-4cb9-ba0b-dcb3393a4bb7">
+                    <propertyInstance
+                      Id="c80e4c37-6734-4726-a0b0-39da091a6a12"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="116cc586-cb29-448d-96af-a3eb07f6e0f5">
+                    <propertyInstance
+                      Id="cc0bb3f8-47df-439f-b40b-7736cf1b153b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4bcd0adb-be5d-4b93-9b69-b3d0bca0baf2"
+            name="getMoveInput"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de048f72-f10c-4a2d-b74b-f55d99bf0909"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="97f6fb26-ef27-4310-b1b3-676803209c6d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b5200c2-dacb-42a4-9c7f-96b73157acd6">
+                    <propertyInstance
+                      Id="300f343a-cb60-4f2d-b9ee-fb5701c2309d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e4b6296-57b5-4409-a091-efbd25bbfdf7">
+                    <propertyInstance
+                      Id="0745ec26-4606-4d26-a2a2-22fb80ca99cf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6008100-1601-4ec3-af21-dc5f013605e7">
+                    <propertyInstance
+                      Id="0667937e-3fa9-4d4b-86a3-9b777c80ef9c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="576af9dc-9b83-4448-8c04-11233175bfa2">
+                    <propertyInstance
+                      Id="34b9b342-bcf8-46c0-adc0-66638818c7b9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abad629a-b7c4-48fc-8e3d-03f1f00e8f29">
+                    <propertyInstance
+                      Id="e290c53e-e3a8-457d-86a3-05cb9b8499c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f6779dc-0325-4084-9ca2-47236e71cfd8">
+                    <propertyInstance
+                      Id="5b676413-75bf-418f-bd95-134de4d9021c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ca5578a-ba67-46b4-8c67-34b91ce0b668"
+                  name="x0"
+                  direction="InOut">
+                  <referencesInternal>
+                    <reference
+                      Id="4ab1ada7-8665-4e08-8860-55c789dadc71"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dx0"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed7be7f9-a170-40dc-aeac-d3d63246bfc4"
+                  name="y0"
+                  direction="InOut">
+                  <referencesInternal>
+                    <reference
+                      Id="16a0f146-b698-4ff0-af26-51898e359de3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dy0"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ea2c075b-171d-48ae-8cd2-a5e17dbb9a8e"
+                  name="x1"
+                  direction="InOut">
+                  <referencesInternal>
+                    <reference
+                      Id="1c17ebf6-7749-44b9-aa01-6102a081a7bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dx1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df07262b-47bf-4f5e-9fee-b7b8ead6b74e"
+                  name="y1"
+                  direction="InOut">
+                  <referencesInternal>
+                    <reference
+                      Id="cd90fd80-9f60-4492-a724-d688bb6b32d8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dy1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1c84b930-caee-4ab2-bfaf-1d30c583684f"
+                  name="luot"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a9bb15cc-5d42-4318-8dce-7c6b22da35ef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DgetMoveInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DChar)]) ParameterIdentifier%3Dluot"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5c9b4366-e101-4f8e-8215-79cb33ed6c12"
+                      LastKnownName="Char"
+                      LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8e106ba0-561c-467f-b2ea-0686cf49caf3"
+            name="printMessage"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c954d27f-8b54-47b4-8c97-85449ee95c8b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DprintMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1d8c0cf2-ac3d-492c-a8ff-4b3c7afd56a4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54f3ba27-3c04-4fa2-b400-5ece70c2a0ce">
+                    <propertyInstance
+                      Id="00fdcbb4-3ba2-445e-8d90-f60d180ec8ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66f7f44b-3f9b-4b65-9509-1e9cc82582ce">
+                    <propertyInstance
+                      Id="344e8714-1442-4cc7-984a-3caa2c524cc4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="594bb0db-b371-43ed-a8f5-dde2e3f52d52">
+                    <propertyInstance
+                      Id="1ffefd83-0d7d-4c16-ba38-939c5476efb4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="642337e6-4693-44c8-bebc-e56ada832a6e">
+                    <propertyInstance
+                      Id="4736dd62-9a17-48cd-b581-231f69ae7bfb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="786f79c6-6c01-44f6-9eb9-f5a97fd85da6">
+                    <propertyInstance
+                      Id="8312311f-8f02-416c-bf66-1ee4e5594a4b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="692b56b9-3a25-4d90-8d5f-4c094cdcd248">
+                    <propertyInstance
+                      Id="0fff1deb-8928-41d0-b748-73691b60f40e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9e947f2a-4388-4722-81f1-d317c5c34654"
+                  name="p"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d60a0d00-9e09-48c4-b977-d05945f15f16"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3D(Name%3DprintMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2a61a241-b845-4e21-84ee-e2ef1910c6f5"
+            name="renderBoard"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d5893373-4e0d-4421-a6d8-61a15fd9afa3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3DrenderBoard"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50eaa157-45a0-4a68-8dc2-1981bdfb26f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="614994d4-72be-4fdd-a34f-b68b77efe8de">
+                    <propertyInstance
+                      Id="54cb934c-ce70-4a6c-a149-563e764a7f00"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f12d2103-de35-41b2-a740-4860fbff2136">
+                    <propertyInstance
+                      Id="94b52816-0f58-43ed-b44f-e173a0969a0e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dabfe5e6-1807-4f96-afad-91920447edbd">
+                    <propertyInstance
+                      Id="4923730a-9afa-479b-851b-6cda65c5aba2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56aeb98d-609b-47d4-a7c5-e2e635cf9dc1">
+                    <propertyInstance
+                      Id="a8d2567f-d680-40e7-aa0d-1f8115953b4f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25c326fb-4549-419a-afcc-b350e92df0cb">
+                    <propertyInstance
+                      Id="841cba51-8d47-45ce-b2f5-5905866eb969"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c84b9e4c-5ae1-432c-9428-139f92f0d30b">
+                    <propertyInstance
+                      Id="61d072e2-f629-489e-9658-e3bd4ac4747d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="620d3c7c-a118-4666-aa3e-2036f89d8839"
+            name="luaChonPhong"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="455c26a6-4585-425c-acea-6b459ab00117"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FAn toan du lieu%2FDoAn4%2FChessRefactor%2FChessRefactor%2Fbin%2FDebug%2FChessRefactor.exe&quot; Namespace%3DChessRefactor.View Type%3DConsoleView Member%3DluaChonPhong"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c038b82-81e9-4a7f-8330-9c2035b94db9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d2ab2b2-a12d-4092-9005-2e9b847ba2a9">
+                    <propertyInstance
+                      Id="1a7d5180-9809-4264-aa3b-2378e2b251d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68ceefa7-d4fb-4fc3-8e47-70dbb32718c6">
+                    <propertyInstance
+                      Id="c286daab-2934-42df-b2ec-d537bd75a6e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dce7369b-08f8-4657-952d-e108ac6f2713">
+                    <propertyInstance
+                      Id="4b803f3b-3c29-4cbf-8d54-45ec150d648e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d03b253-94df-4db2-8562-6b223d18bbfc">
+                    <propertyInstance
+                      Id="74d800e1-085a-4287-aa1c-129499624ed5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a08000c-8ea7-485b-a203-fd23a87bb279">
+                    <propertyInstance
+                      Id="548e038a-649c-4803-9a7c-c92add83b108"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67b36d6c-b770-4e41-a2b9-a647305ac364">
+                    <propertyInstance
+                      Id="3e4677dc-8869-4c12-9d24-9dd8022102a7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9c012f27-c6a2-416f-9586-a1944de507c3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
